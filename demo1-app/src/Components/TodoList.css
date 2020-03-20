@@ -1,0 +1,36 @@
+body{
+    background-color:rosybrown;
+}
+.To-do{
+    background-color: darkslateblue;
+    min-height: 500px;
+    width:400px;
+    margin: 40px auto;
+}
+#to-do-from input{
+    background-color:darkturquoise ;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+}
+#to-do-from input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+#to-do-from input:focus,#to-do-from input:button{
+    outline: none;
+}
+#to-do-from button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: darkblue;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+}
